@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
@@ -63,8 +64,7 @@ body {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
-
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
