@@ -1,11 +1,11 @@
-const botoes = document.querySelectorAll(".botao");
+    const botoes = documento . querySelectorAll ( ".botao" );
 
-for(let i=0;i <botoes.length;i++){
-    botoes[i].onclick = function(){
-        
-        for(let j=0;j<botoes.length;j++){
-            botoes[j].classList.remove("ativo");
-        }
-        botoes[i].classList.add("ativo");
-    }
+para ( let i = 0 ; i < botoes.length ; i ++){
+botoes [ i ]. onclick = function (){
+
+para ( seja j = 0 ; j < botoes.length ; j ++){
+botoes [ j ]. lista de classes . remover ( "ativo" );
+}
+botoes [ eu ]. lista de classes . add ( "ativo" );
+}
 }
