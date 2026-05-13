@@ -1,4 +1,9 @@
-    const botoes = documento . querySelectorAll ( ".botao" );
+
+JULIA VITORIA PEREIRA ALVES
+15:36 (há 5 minutos)
+para mim
+
+const botoes = documento . querySelectorAll ( ".botao" );
 
 para ( let i = 0 ; i < botoes.length ; i ++){
 botoes [ i ]. onclick = function (){
