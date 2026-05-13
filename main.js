@@ -1,16 +1,13 @@
 
-JULIA VITORIA PEREIRA ALVES
-15:36 (há 5 minutos)
-para mim
 
-const botoes = documento . querySelectorAll ( ".botao" );
+const botoes = document . querySelectorAll ( ".botao" );
 
-para ( let i = 0 ; i < botoes.length ; i ++){
+for ( let i = 0 ; i < botoes.length ; i ++){
 botoes [ i ]. onclick = function (){
 
-para ( seja j = 0 ; j < botoes.length ; j ++){
-botoes [ j ]. lista de classes . remover ( "ativo" );
+for (let j=0;j<botoes.length ; j ++){
+botoes [j].classList . remove( "ativo" );
 }
-botoes [ eu ]. lista de classes . add ( "ativo" );
+botoes [j] .classList . add ( "ativo" );
 }
 }
